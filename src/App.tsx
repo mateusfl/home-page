@@ -1,14 +1,18 @@
-import { Base } from './components/Base'
+import { Profile } from './components/Profile'
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-violet-500 to-pink-400 w-screen h-screen">
-      <div className="container bg-gray-300 max-h-fit max-w-md w-3/4 border rounded-xl mx-auto flex justify-center ">
-        <ul>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-        </ul>
+    <div className="bg-gradient-to-b from-violet-500 to-pink-400 h-screen w-screen py-8 md:p-48">
+      <div
+        className="container mx-auto bg-gray-300 max-h-fit max-w-md w-3/4 
+        border rounded-xl 
+        flex flex-col gap-3 items-center justify-center "
+      >
+        <Profile />
+        <a href="https://github.com/mateusfl">link</a>
+        <a href="https://github.com/mateusfl">link</a>
+        <a href="https://github.com/mateusfl">link</a>
+        <a href="https://github.com/mateusfl">link</a>
       </div>
     </div>
   )
