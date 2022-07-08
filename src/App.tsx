@@ -1,20 +1,32 @@
+import { Link } from './components/Link'
 import { Profile } from './components/Profile'
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-violet-500 to-pink-400 h-screen w-screen py-8 md:p-48">
+    <body className="bg-gradient-to-b from-violet-500 to-pink-400 h-screen w-screen py-8 md:p-48">
       <div
         className="container mx-auto bg-gray-300 max-h-fit max-w-md w-3/4 
         border rounded-xl 
-        flex flex-col gap-3 items-center justify-center "
+        flex flex-col  items-center justify-around "
       >
         <Profile />
-        <a href="https://github.com/mateusfl">link</a>
-        <a href="https://github.com/mateusfl">link</a>
-        <a href="https://github.com/mateusfl">link</a>
-        <a href="https://github.com/mateusfl">link</a>
+        <Link
+          url={'https://github.com/mateusfl'}
+          name={'Github'}
+          emoji={'🐱'}
+        />
+        <Link
+          url={'https://instagram.com/mateus_fsd'}
+          name={'Instagram'}
+          emoji={'📷'}
+        />
+        <Link
+          url={'https://linkedin.com/in/mateus-felipe-1770b2196/'}
+          name={'Linkedin'}
+          emoji={'💼'}
+        />
       </div>
-    </div>
+    </body>
   )
 }
 
