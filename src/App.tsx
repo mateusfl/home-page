@@ -17,14 +17,14 @@ function App() {
           emoji={'🐱'}
         />
         <Link
-          url={'https://instagram.com/mateus_fsd'}
-          name={'Instagram'}
-          emoji={'📷'}
-        />
-        <Link
           url={'https://linkedin.com/in/mateus-felipe-1770b2196/'}
           name={'Linkedin'}
           emoji={'💼'}
+        />
+        <Link
+          url={'https://instagram.com/mateus_fsd'}
+          name={'Instagram'}
+          emoji={'📷'}
         />
       </div>
     </body>
